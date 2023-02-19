@@ -48,4 +48,6 @@
 df
 # ls flutter
 flutter config --enable-web --no-enable-linux-desktop --no-enable-windows-desktop --no-enable-android --no-enable-ios --no-analytics
-which flutter dart
+which flutter dart chromium-browser python3
+flutter doctor -v
+echo "chromium-browser --enable-features=UseOzonePlatform --ozone-platform=wayland --verbose"
