@@ -51,5 +51,6 @@ df
 flutter config --enable-web --no-enable-linux-desktop --no-enable-windows-desktop --no-enable-android --no-enable-ios --no-analytics
 which flutter dart python3
 flutter doctor -v
+git remote -v
 echo "which flutter dart chromium-browser python3"
 echo "chromium-browser --enable-features=UseOzonePlatform --ozone-platform=wayland --verbose"
