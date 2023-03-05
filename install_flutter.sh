@@ -45,9 +45,11 @@
 #  /usr/bin:
 #  /sbin:/bin
 # =====
+export PATH="$PATH:`pwd`/flutter/bin"
 df
 # ls flutter
 flutter config --enable-web --no-enable-linux-desktop --no-enable-windows-desktop --no-enable-android --no-enable-ios --no-analytics
-which flutter dart chromium-browser python3
+which flutter dart python3
 flutter doctor -v
+echo "which flutter dart chromium-browser python3"
 echo "chromium-browser --enable-features=UseOzonePlatform --ozone-platform=wayland --verbose"
