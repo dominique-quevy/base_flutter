@@ -1,9 +1,9 @@
 #!/bin/sh -x
 # ===== shebang
 # ===== zsh install_flutter.sh
-#wget https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.7.3-stable.tar.xz
-#tar xfv flutter_linux_3.7.3-stable.tar.xz
-#rm -v flutter_linux_3.7.3-stable.tar.xz
+#wget https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.7.6-stable.tar.xz
+#tar xfv flutter_linux_3.7.6-stable.tar.xz
+#rm -v flutter_linux_3.7.6-stable.tar.xz
 # =====
 # https://codesandbox.io/docs/learn/repositories/limitations#nixos
 #install chromium browser via nixpkgs => csb.nix file
