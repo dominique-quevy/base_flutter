@@ -54,3 +54,8 @@ flutter doctor -v
 git remote -v
 echo "which flutter dart chromium-browser python3"
 echo "chromium-browser --enable-features=UseOzonePlatform --ozone-platform=wayland --verbose"
+echo " "
+    echo "===== GitHub Codespaces with VNC, Chrome and Speed Test"
+    echo "=====      https://www.youtube.com/watch?v=ihqfS-6YdUs"
+    echo "===== description how to install VNC and a browser in Codespaces"
+    echo "=====      https://github.com/microsoft/vscode-dev-containers
